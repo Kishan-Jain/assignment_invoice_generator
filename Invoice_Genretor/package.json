@@ -1,0 +1,28 @@
+{
+  "name": "invoice_genretor",
+  "version": "1.0.0",
+  "description": "This project for genrate Invoice after order success",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index",
+    "start": "node -r dotenv/config src/index"
+  },
+  "type": "module",
+  "keywords": [
+    "backend",
+    "express",
+    "zoho"
+  ],
+  "author": "kishan jain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "html-pdf": "^3.0.1",
+    "html2pdf.js": "^0.10.2",
+    "to-words": "^4.1.0"
+  }
+}

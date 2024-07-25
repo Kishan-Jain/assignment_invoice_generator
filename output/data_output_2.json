@@ -1,0 +1,47 @@
+{
+    "seller" : {
+        "name" : "kishan",
+        "address" : {
+            "area" : "02, basant nager",
+            "city" : "gwalior",
+            "state" : "M.P.",
+            "pinCode" : "454001"
+        },
+        "panNumber" : "abcde1234f",
+        "gstNumber" : "121212121"
+    },
+    "customer" : {
+        "name" : "suresh",
+        "billingAddress" :{
+            "area" : "02, bapi mandi",
+            "city" : "mumbai",
+            "state" : "M.H.",
+            "pinCode" : "154001"
+        },
+        "shippingAddress" : {
+            "area" : "02, bapi mandi",
+            "city" : "mumbai",
+            "state" : "M.H.",
+            "pinCode" : "154001"
+        }
+    },
+    "invoice" : {
+        "number" : "IN-1212",
+        "details" : "MD-RS-2332312222",
+        "date" : "24/07/2024"
+    },
+    "order" : {
+        "number" : "453232-43333-IN-54",
+        "date" : "24/07/2024"
+    },
+    "product" :[
+        {
+            "description" : "Hp Laptop 14, 13th Gen Intel Core i2-1315U",
+            "basePrice" : 39900,
+            "quantity" : 1,
+            "discount" : 16,
+            "shippingCharges" : 31
+        }
+    ]
+
+}
